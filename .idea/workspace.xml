@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4ed13e5-4d54-4aee-a97c-7f1e90378b06" name="Default Changelist" comment="" />
+    <list default="true" id="f4ed13e5-4d54-4aee-a97c-7f1e90378b06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="5" />
-          <entry key="py" value="122" />
+          <entry key="py" value="123" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
@@ -93,7 +96,7 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="122" />
+          <entry key="Python" value="123" />
         </counts>
       </usages-collector>
     </session>
@@ -115,11 +118,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1566893441439" expanded="true" signature="512:521" ph="..." />
+                <marker date="1566894035621" expanded="true" signature="512:521" ph="..." />
               </folding>
             </state>
           </provider>
@@ -250,8 +253,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="76" />
+    <option name="x" value="246" />
     <option name="width" value="814" />
     <option name="height" value="703" />
   </component>
@@ -374,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566890509272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="8-27 15:21">
+      <created>1566893572205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566893572205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -387,10 +396,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="226" y="76" width="814" height="703" extended-state="0" />
-    <editor active="true" />
+    <frame x="246" y="0" width="814" height="703" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24403183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,7 +411,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132626" side_tool="true" visible="true" weight="0.42647058" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132626" side_tool="true" weight="0.83639705" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49867374" weight="0.42647058" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -508,11 +516,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="366">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1566893441439" expanded="true" signature="512:521" ph="..." />
+            <marker date="1566894035621" expanded="true" signature="512:521" ph="..." />
           </folding>
         </state>
       </provider>
