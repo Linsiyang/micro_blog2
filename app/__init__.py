@@ -5,6 +5,7 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 from flask_mail import Mail
 from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 
 from config import Config#从config模块导入Config类
 import logging
@@ -15,7 +16,8 @@ import os
 #将Flask类的实例 赋值给名为 app 的变量。这个实例成为app包的成员。
 app = Flask(__name__)
 app.config.from_object(Config)
-# app.config['SECRET_KEY'] = "I am a secret, you can't guess."
+moment = Moment(app)
+
 
 login = LoginManager(app)
 login.login_view = 'login'
