@@ -3,6 +3,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy#从包中导入类
 from flask_migrate import Migrate
 from flask_login import LoginManager
+from flask_mail import Mail
+from flask_bootstrap import Bootstrap
 
 from config import Config#从config模块导入Config类
 import logging
@@ -18,7 +20,9 @@ app.config.from_object(Config)
 login = LoginManager(app)
 login.login_view = 'login'
 
-# print('等会谁（哪个包或模块）在使用我：',__name__)
+mail = Mail(app)
+bootstrap = Bootstrap(app)
+
 
 db = SQLAlchemy(app)#数据库对象
 migrate = Migrate(app, db)#迁移引擎对象
@@ -40,5 +44,5 @@ if not app.debug:
     app.logger.setLevel(logging.INFO)
     app.logger.info('Microblog startup')
 
-from app import routes,models,errors
+from app import routes,models,errors #永远最后
 #导入一个新模块models，它将定义数据库的结构，目前为止尚未编写
