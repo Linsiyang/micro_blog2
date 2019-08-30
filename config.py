@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 basedir = os.path.abspath(os.path.dirname(__file__))#获取当前.py文件的绝对路径
 
 load_dotenv(os.path.join(basedir, 'microblog.env'))
-class Config:
+class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you will never guess'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI') or 'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
@@ -17,3 +17,6 @@ class Config:
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')  # 客户端授权密码
 
     LANGUAGES = ['en', 'zh']  # 注意：不要填写zh_CN。
+
+    APPID = os.environ.get('APPID')
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
